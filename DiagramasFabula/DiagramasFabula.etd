@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XMI xmlns:UML="omg.org/UML/1.4" xmi.version="2.0"> <XMI.header> <XMI.metamodel xmi.name="UML" xmi.version="1.4"/> <XMI.documentation> <XMI.exporter> Embarcadero's Describe </XMI.exporter> <XMI.exporterVersion> 6.0 </XMI.exporterVersion> </XMI.documentation> </XMI.header> <XMI.content> <UML:Project xmi.id="DCE.E5D08AA0-772C-CE21-ACF8-DF3F430631C5" mode="Design" defaultLanguage="UML" projVersion="6.1.4.837" name="DiagramasFabula"><UML:Element.ownedElement>
+<UML:Package xmi.id="DCE.DDAC9287-44E4-DA0E-B123-50A17068D67B" name="Fabula_Liebre_Tortuga" owner="DCE.E5D08AA0-772C-CE21-ACF8-DF3F430631C5" clientDependency="DCE.3F11271B-C940-CEF2-DFF6-7111B7D4BD8F"><UML:Element.presentation>
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:Class xmi.id="DCE.C53AACBD-C7F1-A3E3-8B19-C6DB3952029E" name="Animal" owner="DCE.DDAC9287-44E4-DA0E-B123-50A17068D67B"><UML:Element.presentation>
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:Attribute xmi.id="DCE.5104AA3B-F44B-72AF-3548-B8DBED948618" visibility="private" name="nombre" type="DCE.0F45CEAC-E395-4B51-AA9D-D02CE4C42BA3" owner="DCE.C53AACBD-C7F1-A3E3-8B19-C6DB3952029E"><UML:Element.presentation>
+</UML:Element.presentation><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.8B4B556B-DF78-D324-B8EA-5382B1F04CD8"/></UML:TypedElement.multiplicity><UML:Attribute.default>
+<UML:Expression xmi.id="DCE.74E16367-1EE5-BFA1-B940-69CC77192DE9"/></UML:Attribute.default></UML:Attribute>
+<UML:Attribute xmi.id="DCE.6A83F3AC-DE26-57BA-75A9-3FF4399ED6FB" visibility="private" name="edad" type="DCE.B420FCFD-1401-E82D-1833-2D42FEF92907" owner="DCE.C53AACBD-C7F1-A3E3-8B19-C6DB3952029E"><UML:Element.presentation>
+</UML:Element.presentation><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.615B1C23-3B29-F319-9CE0-28DA2990844D"/></UML:TypedElement.multiplicity><UML:Attribute.default>
+<UML:Expression xmi.id="DCE.17E2F4B5-809D-CDDA-FEA8-1E8F43878843"/></UML:Attribute.default></UML:Attribute>
+<UML:Attribute xmi.id="DCE.A0560F05-A0D8-BDAC-E9D9-184B8BE2B30D" visibility="private" name="peso" type="DCE.1EF7A9E5-33BC-90C8-D98B-A62E22140BC8" owner="DCE.C53AACBD-C7F1-A3E3-8B19-C6DB3952029E"><UML:Element.presentation>
+</UML:Element.presentation><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.5B7B7AA5-CC1B-8966-0105-CE5828CA5889"/></UML:TypedElement.multiplicity><UML:Attribute.default>
+<UML:Expression xmi.id="DCE.6806FB7A-7ADE-AE82-5BD8-153220589D53"/></UML:Attribute.default></UML:Attribute>
+<UML:Operation xmi.id="DCE.5B5807B8-2774-9F8E-69FA-816D9A9DA62C" name="Animal" owner="DCE.C53AACBD-C7F1-A3E3-8B19-C6DB3952029E"><UML:Element.ownedElement>
+<UML:Parameter xmi.id="DCE.8A559CA0-C9A2-4FE4-4F95-A3E6D056D38C" type="DCE.70F087E0-A4E8-DCBD-7CFF-63094E8EFEAC" direction="result" owner="DCE.5B5807B8-2774-9F8E-69FA-816D9A9DA62C"><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.729F6133-A4D4-0F79-035F-85AD748F5DD6"/></UML:TypedElement.multiplicity></UML:Parameter>
+<UML:Parameter xmi.id="DCE.9B0A930A-E898-6064-8073-EE5E37F05530" type="DCE.0F45CEAC-E395-4B51-AA9D-D02CE4C42BA3" name="name" owner="DCE.5B5807B8-2774-9F8E-69FA-816D9A9DA62C"><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.312CB5A9-7C01-BE56-961C-28867EA9C498"/></UML:TypedElement.multiplicity></UML:Parameter></UML:Element.ownedElement><UML:Element.presentation>
+</UML:Element.presentation></UML:Operation>
+<UML:Operation xmi.id="DCE.F917FFFB-289B-DB4B-71C8-22BFFAA6ACD7" name="setNombre" owner="DCE.C53AACBD-C7F1-A3E3-8B19-C6DB3952029E"><UML:Element.ownedElement>
+<UML:Parameter xmi.id="DCE.71318037-6F0E-DA15-DC29-047BBD5305D5" type="DCE.70F087E0-A4E8-DCBD-7CFF-63094E8EFEAC" direction="result" owner="DCE.F917FFFB-289B-DB4B-71C8-22BFFAA6ACD7"><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.306E8B92-336D-AB96-31C6-F5E85C162CC2"/></UML:TypedElement.multiplicity></UML:Parameter>
+<UML:Parameter xmi.id="DCE.F9FD07E4-A995-DE5D-94A1-3067734AA9C2" type="DCE.0F45CEAC-E395-4B51-AA9D-D02CE4C42BA3" name="nombre" owner="DCE.F917FFFB-289B-DB4B-71C8-22BFFAA6ACD7"><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.03F85CCA-9C01-F13E-89D0-12F70EAC5FD5"/></UML:TypedElement.multiplicity></UML:Parameter></UML:Element.ownedElement><UML:Element.presentation>
+</UML:Element.presentation></UML:Operation></UML:Element.ownedElement></UML:Class>
+<UML:DataType xmi.id="DCE.0F45CEAC-E395-4B51-AA9D-D02CE4C42BA3" name="String" owner="DCE.DDAC9287-44E4-DA0E-B123-50A17068D67B"/></UML:Element.ownedElement></UML:Package>
+
+
+<UML:DataType xmi.id="DCE.1EF7A9E5-33BC-90C8-D98B-A62E22140BC8" name="int" owner="DCE.E5D08AA0-772C-CE21-ACF8-DF3F430631C5"/>
+<UML:DataType xmi.id="DCE.B420FCFD-1401-E82D-1833-2D42FEF92907" name="double" owner="DCE.E5D08AA0-772C-CE21-ACF8-DF3F430631C5"/>
+<UML:DataType xmi.id="DCE.70F087E0-A4E8-DCBD-7CFF-63094E8EFEAC" name="void" owner="DCE.E5D08AA0-772C-CE21-ACF8-DF3F430631C5"/></UML:Element.ownedElement></UML:Project></XMI.content> </XMI>
